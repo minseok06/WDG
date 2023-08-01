@@ -1,0 +1,106 @@
+/* 기본 세팅 */
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+}
+.all{
+    width: 1200px;
+    height: 700px;
+    display: block;
+}
+
+/* ------------------------- */
+
+/* 해더 시작 */
+header{
+    width: 1200px;
+    height: 100px;
+    float: left;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    background: skyblue;
+    float: left;
+}
+.menu{
+    width: 1000px;
+    height: 100px;
+    background: pink;
+    float: left;
+}
+/* 해더 끝 */
+
+/* ------------------------- */
+
+/* 이미지 슬라이드 시작 */
+.slide{
+    width: 1200px;
+    height: 300px;
+    background: greenyellow;
+    float: left;
+}
+/* 이미지 슬라이드 끝 */
+
+/* ------------------------- */
+
+/* 콘텐츠 시작 */
+.contents{
+    width: 1200px;
+    height: 200px;
+    float: left;
+}
+.c1{
+    width: 400px;
+    height: 100%;
+    background: rgb(99, 99, 255);
+    float: left;
+}
+.c2{
+    width: 400px;
+    height: 100%;
+    background: rgb(144, 144, 255);
+    float: left;
+}
+.c3{
+    width: 400px;
+    height: 100%;
+    background: rgb(201, 201, 255);
+    float: left;
+}
+/* 콘텐츠 끝 */
+
+/* ------------------------- */
+
+/* 푸터 시작 */
+footer{
+    width: 1200px;
+    height: 100px;
+    float: left;
+}
+.btlogo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background: yellow;
+}
+.bt{
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+.btmenu{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: hotpink;
+}
+.copy{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: navy;
+}
+/* 푸터 끝 */
