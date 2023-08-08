@@ -1,0 +1,65 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    width: 1200px;
+    height: 700px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background: skyblue;
+}
+.menu{
+    width: 1000px;
+    height: 100px;
+    float: left;
+    background: hotpink;
+}
+.imgslide{
+    width: 100%;
+    height: 300px;
+    float: left;
+    background: orange;
+}
+.contents{
+    width: 100%;
+    height: 200px;
+    float: left;
+    background: yellowgreen;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.btlogo{
+    width: 200px;
+    height: 100px;
+    float: left;
+    background: yellow;
+}
+.site{
+    width: 1000px;
+    height: 100px;
+    float: left;
+}
+.btmenu{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: pink;
+}
+.copy{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: blue;
+}
