@@ -208,13 +208,59 @@ header{
 }
 .banner{
     float: left;
-    width: 400px;
-    height: 200px;
+    width: 395px;
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.banner img{
+    float: left;
+    width: 395px;
+    height: 180px;
+}
+.bntext{
+    float: left;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 40px;
+    background-color: rgba(40, 40, 40, 0.3);
+    left: 450px;
+    top: 80px;
+}
+.banner img:hover{
+    opacity: 0.5;
 }
 .shortcut{
     float: right;
     width: 400px;
-    height: 200px;
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.shortcut img{
+    float: right;
+    width: 400px;
+    height: 180px;
+}
+.sctext{
+    float: right;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 40px;
+    background-color: rgba(40, 40, 40, 0.3);
+    left: 850px;
+    top: 80px;
+}
+.shortcut img:hover{
+    opacity: 0.5;
 }
 footer{
     width: 100%;
