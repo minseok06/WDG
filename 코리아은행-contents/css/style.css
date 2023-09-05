@@ -123,6 +123,7 @@ header{
     float: left;
     width: 1200px;
     height: 200px;
+    position: absolute;
 }
 .tabmenu{
     float: left;
@@ -186,6 +187,19 @@ header{
 }
 .notice li:hover{
     font-weight: bold;
+}
+.gallery li{
+    float: left;
+    margin-top: 15;
+    margin-left: 5px;
+}
+.gallery img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.gallery li:hover{
+    opacity: 0.5;
 }
 .otherwrap{
     float: right;

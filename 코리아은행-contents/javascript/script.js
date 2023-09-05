@@ -35,3 +35,9 @@ setInterval(
 //     }
 // );
 // 위에서 아래로
+
+$('.tabmenu>li>a').click(
+    function(){
+        $(this).parent().addClass('active').siblings().removeClass('active');
+    }
+);
