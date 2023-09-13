@@ -1,12 +1,14 @@
 $('.navi>li').mouseover(
     function(){
-        $(this).children('.submenu').stop().slideDown(50);
+        // $(this).children('.submenu').stop().slideDown(50);
+        $('.submenu').stop().slideDown(200);
     }
 );
 
 $('.navi>li').mouseout(
     function(){
-        $(this).children('.submenu').stop().slideUp(500);
+        // $(this).children('.submenu').stop().slideUp(500);
+        $('.submenu').stop().slideUp(200);
     }
 );
 
@@ -41,3 +43,10 @@ $('.tabmenu>li>a').click(
         $(this).parent().addClass('active').siblings().removeClass('active');
     }
 );
+
+$('.notice li:first').click(function(){
+    $('#layer').addClass('active');
+});
+$('.btn').click(function(){
+    $('#layer').removeClass('active');
+});
