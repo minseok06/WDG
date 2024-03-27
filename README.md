@@ -1,5 +1,7 @@
 ## 전공시간 선생님과 같이 만든 코리아은행
 ![image](https://github.com/minseok06/WDG/assets/121544294/20a54991-e8a7-4056-9aa6-e3de7b39509b)
+## 애들이랑 오사카 가야지
+![image](https://github.com/minseok06/WDG/assets/121544294/1a67546b-c17d-4b5a-97fa-7f668cae6421)
 ## 싱가포르 가고싶다
 ![image](https://github.com/minseok06/WDG/assets/121544294/a54b0dd2-9bea-42a4-90b5-e5a5fa86e2b8)
 ## 딸기가 제일 좋아
