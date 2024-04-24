@@ -1,0 +1,81 @@
+@charset "utf-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.box{
+    width: 1000px;
+    height: 650px;
+}
+.left_box{
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    background: hotpink;
+}
+.navi{
+    width: 200px;
+    height: 550px;
+    background: blue;
+}
+.right_box{
+    float: right;
+    width: 800px;
+    height: 100%;
+}
+.slide{
+    width: 800px;
+    height: 350px;
+    background: ivory;
+}
+.contents{
+    width: 800px;
+    height: 200px;
+}
+.notice_box{
+    float: left;
+    width: 280px;
+    height: 100%;
+    background: gainsboro;
+}
+.banner_box{
+    float: left;
+    width: 280px;
+    height: 100%;
+    background: rgba(220, 220, 220, 0.7);
+}
+.icon_box{
+    float: left;
+    width: 240px;
+    height: 100%;
+    background: rgba(220, 220, 220, 0.4);
+}
+.footer{
+    width: 800px;
+    height: 100px;
+}
+.down_logo{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: hotpink;
+}
+.copyright{
+    float: right;
+    width: 600px;
+    height: 100%;
+}
+.down_menu{
+    width: 100%;
+    height: 50px;
+    background: blue;
+}
+.copy{
+    width: 100%;
+    height: 50px;
+    background: gray;
+}
