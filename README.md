@@ -8,5 +8,5 @@
 ![image](https://github.com/minseok06/WDG/assets/121544294/4d75dad0-b4af-45d5-8932-98add617ad6d)
 ## 싱가포르 가고싶다
 ![image](https://github.com/minseok06/WDG/assets/121544294/a54b0dd2-9bea-42a4-90b5-e5a5fa86e2b8)
-## 딸기는 맛있어요
+## 딸기는 맛있다
 ![image](https://github.com/minseok06/WDG/assets/121544294/46cd11f6-01cf-4cda-8d48-5f46dab26e3d)
