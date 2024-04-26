@@ -1,0 +1,200 @@
+@charset "utf-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.box{
+    width: 1200px;
+    height: 650px;
+}
+.left_box{
+    float: left;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    background: hotpink;
+}
+.menu{
+    width: 100%;
+    height: 550px;
+    background: blue;
+}
+.right_box{
+    float: right;
+    width: 1000px;
+    height: 100%;
+}
+.slide{
+    width: 100%;
+    height: 350px;
+    background: ivory;
+}
+.contents{
+    width: 100%;
+    height: 200px;
+}
+.c1{
+    float: left;
+    width: 400px;
+    height: 100%;
+    background: rgb(14, 187, 255);
+}
+.c2{
+    float: left;
+    width: 400px;
+    height: 100%;
+    background: rgb(72, 203, 255);
+}
+.c3{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: rgb(115, 215, 255);
+}
+.footer{
+    width: 100%;
+    height: 100px;
+}
+.footer-logo{
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: hotpink;
+}
+.footer-sub{
+    float: right;
+    width: 800px;
+    height: 100%;
+}
+.footer-menu{
+    width: 100%;
+    height: 50%;
+    background: blue;
+}
+.footer-copy{
+    width: 100%;
+    height: 50%;
+    background: gainsboro;
+}
+.main{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.main > li > a{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    background: gainsboro;
+    font-weight: bold;
+}
+.main > li > a:hover{
+    background: hotpink;
+    color: white;
+}
+.sub{
+    position: absolute;
+    width: 180px;
+    height: 200px;
+    background: rgba(255, 105, 180, 0.5);
+    top: 0px;
+    left: 190px;
+    display: none;
+}
+.sub > li > a{
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+.sub > li > a:hover{
+    color: white;
+    background: hotpink;
+    font-weight: bold;
+}
+.tabmenu{
+    float: left;
+    width: 380px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: absolute;
+}
+.tabmenu>li{
+    float: left;
+    width: 100px;
+    line-height: 30px;
+}
+.tabmenu>li>a{
+    text-align: center;
+    border: 1px solid #333;
+    background: ivory;
+}
+.tabmenu>li:first-child a{
+    border-right: none;
+}
+.tabmenu>li>a:hover{
+    background: pink;
+}
+.tabmenu>li.active>a{
+    background: hotpink;
+    color: white;
+}
+.tabmenu>li div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+.tabmenu>li.active div{
+    width: 380px;
+    height: 140px;
+    border: 1px solid #333;
+    z-index: 1;
+    background: white;
+}
+.notice ul{
+    float: left;
+    width: 380px;
+}
+.notice li{
+    height: 32px;
+    line-height: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.notice li:nth-child(2n){
+    background: pink;
+}
+.notice span{
+    float: right;
+}
+.notice li:hover{
+    font-weight: bold;
+}
+.gallery li{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.gallery a{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background: pink;
+}
+.gallery li:hover{
+    opacity: 0.5;
+}
