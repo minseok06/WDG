@@ -23,6 +23,11 @@ a{
     width: 100%;
     height: 100px;
     background: hotpink;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
 .menu{
     width: 100%;
@@ -37,7 +42,15 @@ a{
 .slide{
     width: 100%;
     height: 350px;
-    background: ivory;
+}
+.slide>a{
+    text-align: center;
+    font-size: 34px;
+    width: 1000px;
+    line-height: 350px;
+    background: rgb(255, 166, 210);
+    color: white;
+    position: absolute;
 }
 .contents{
     width: 100%;
@@ -47,19 +60,22 @@ a{
     float: left;
     width: 400px;
     height: 100%;
-    background: rgb(14, 187, 255);
 }
 .c2{
     float: left;
-    width: 400px;
-    height: 100%;
+    width: 290px;
+    height: 190px;
     background: rgb(72, 203, 255);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 .c3{
     float: left;
-    width: 200px;
-    height: 100%;
+    width: 300px;
+    height: 190px;
     background: rgb(115, 215, 255);
+    margin-top: 5px;
 }
 .footer{
     width: 100%;
@@ -70,6 +86,11 @@ a{
     width: 200px;
     height: 100%;
     background: hotpink;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 .footer-sub{
     float: right;
@@ -90,6 +111,7 @@ a{
     position: relative;
     top: 20px;
     text-align: center;
+    z-index: 1;
 }
 .main > li > a{
     width: 180px;
@@ -97,6 +119,7 @@ a{
     line-height: 40px;
     background: gainsboro;
     font-weight: bold;
+    font-size: 16px;
 }
 .main > li > a:hover{
     background: hotpink;
@@ -105,7 +128,7 @@ a{
 .sub{
     position: absolute;
     width: 180px;
-    height: 200px;
+    height: 160px;
     background: rgba(255, 105, 180, 0.5);
     top: 0px;
     left: 190px;
@@ -113,9 +136,11 @@ a{
 }
 .sub > li > a{
     width: 180px;
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     color: white;
+    font-size: 14px;
+    font-weight: bold;
 }
 .sub > li > a:hover{
     color: white;
@@ -129,6 +154,7 @@ a{
     margin-left: 10px;
     margin-right: 10px;
     position: absolute;
+    margin-top: 10px;
 }
 .tabmenu>li{
     float: left;
@@ -137,8 +163,9 @@ a{
 }
 .tabmenu>li>a{
     text-align: center;
-    border: 1px solid #333;
+    border: 1px solid #ddd;
     background: ivory;
+    border-bottom: none;
 }
 .tabmenu>li:first-child a{
     border-right: none;
@@ -149,6 +176,7 @@ a{
 .tabmenu>li.active>a{
     background: hotpink;
     color: white;
+    font-weight: bold;
 }
 .tabmenu>li div{
     position: absolute;
@@ -159,13 +187,14 @@ a{
 .tabmenu>li.active div{
     width: 380px;
     height: 140px;
-    border: 1px solid #333;
+    border: 1px solid #ddd;
     z-index: 1;
     background: white;
 }
 .notice ul{
     float: left;
     width: 380px;
+    margin-top: 5px;
 }
 .notice li{
     height: 32px;
@@ -184,6 +213,30 @@ a{
 .notice li:hover{
     font-weight: bold;
 }
+.c2 a{
+    width: 200px;
+    height: 40px;
+    background: white;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 75px;
+}
+.c3 a{
+    width: 200px;
+    height: 40px;
+    background: white;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 75px;
+}
+.c2:hover{
+    opacity: 0.5;
+}
+.c3:hover{
+    opacity: 0.5;
+}
 .gallery li{
     float: left;
     margin-top: 10px;
@@ -193,6 +246,8 @@ a{
     width: 100px;
     height: 100px;
     padding: 10px;
+    text-align: center;
+    line-height: 100px;
     background: pink;
 }
 .gallery li:hover{
