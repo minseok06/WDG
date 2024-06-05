@@ -1,3 +1,5 @@
+## 아쿠아리움
+![image](https://github.com/minseok06/WDG/assets/121544294/cbc5a7a6-1695-45b5-852f-aa73363a4c42)
 ## ON쇼핑몰
 ![image](https://github.com/minseok06/WDG/assets/121544294/31c43852-b1f0-4ffc-853d-f0c7991ae91c)
 ## 코리아은행 완성본
