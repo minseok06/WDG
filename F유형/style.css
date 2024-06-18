@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    width: 1340px;
+    height: 70px;
+}
+
+.wrap {
+    width: 1200px;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background: rgb(255, 0, 128);
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    width: 800px;
+    height: 70px;
+}
+
+.menu_f {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    width: 100%;
+    height: 160px;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    float: left;
+    display: none;
+}
+
+.main {
+    width: 600px;
+    margin-top: 30px;
+    margin-right: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.main li {
+    float: left;
+    width: 150px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main>li>a {
+    background: rgb(255, 0, 128);
+    color: white;
+}
+
+.main li>a:hover {
+    background: white;
+    color: black;
+}
+
+.sub {
+    width: 100%;
+    height: 160px;
+    color: black;
+    display: none;
+}
+
+.imgslide {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slidelist img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.slidelist{
+    height: 1050px;
+}
+
+.slidelist li{
+    width: 100%;
+    height: 350px;
+}
+
+.slidelist span {
+    position: absolute;
+    background: rgba(0, 153, 255, 0.8);
+    color: white;
+    width: 20%;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    top: 150px;
+    left: 40%;
+}
+
+.all {
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    bottom: 100px;
+}
+
+.imgbanner {
+    width: 1200px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.imgbanner img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.imgbanner li{
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+.imgbanner li:hover{
+    opacity: 0.5;
+}
+
+.imgtext {
+    width: 1200px;
+    height: 150px;
+    background: rgb(0, 153, 255);
+}
+
+.imgtext img{
+    width: 400px;
+    height: 130px;
+    object-fit: cover;
+}
+.imgtext a{
+    float: left;
+    width: 400px;
+    height: 130px;
+    margin: 10px;
+}
+.text_body{
+    float: left;
+    width: 750px;
+    height: 130px;
+    margin: 10px;
+    color: white;
+}
+
+.contents {
+    width: 1200px;
+    height: 250px;
+}
+.tabmenu{
+    float: left;
+    width: 1200px;
+    height: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+.tabmenu>li{
+    float: left;
+    width: 200px;
+    line-height: 30px;
+}
+.tabmenu>li>a{
+    text-align: center;
+    color: black;
+    background: gainsboro;
+}
+.tabmenu>li.active>a{
+    background: rgb(0, 153, 255);
+    color: white;
+    font-weight: bold;
+}
+.tabmenu>li>a:hover{
+    font-weight: bold;
+}
+.tabmenu>li div{
+    position: absolute;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+}
+.tabmenu>li.active div{
+    width: 1180px;
+    height: 180px;
+    border: 1px solid #ddd;
+}
+.notice{
+    width: 380px;
+    line-height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.notice li{
+    padding-left: 10px;
+}
+.notice li:nth-child(2n){
+    background: rgb(255, 0, 128);
+    color: white;
+}
+.notice span{
+    float: right;
+    padding-right: 10px;
+}
+.notice li:hover{
+    font-weight: bold;
+}
+.gallery img{
+    width: 350px;
+    height: 140px;
+    padding: 10px;
+    object-fit: cover;
+}
+.gallery li{
+    float: left;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.gallery li:hover{
+    opacity: 0.5;
+}
+
+footer {
+    width: 1200px;
+    height: 100px;
+    background: gainsboro;
+}
+
+.f-logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: hotpink;
+    color: white;
+    font-size: 30px;
+}
+.f-menu{
+    float: right;
+    width: 1000px;
+    height: 100px;
+}
+.f1{
+    width: 100%;
+    height: 50px;
+}
+.f1 ul{
+    margin-left: 30px;
+}
+.f1 li{
+    float: left;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.f1 li>a{
+    color: blue;
+}
+.f1 li>a:hover{
+    color: hotpink;
+}
+.f2{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 40px;
+    color: #333;
+}
+
+#modal{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+#modal.active{
+    display: block;
+}
+.modal_up{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    left: 0px;
+    top: 20%;
+    background-color: #fff;
+    position: relative;
+}
+.uptitle{
+    text-align: center;
+    padding-top: 20px;
+}
+.upbody{
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+}
+.btn{
+    width: 80px;
+    height: 20px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 3px;
+    background: rgb(0, 153, 255);
+    position: absolute;
+    bottom: 30px;
+    left: 160px;
+}
