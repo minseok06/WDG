@@ -1,3 +1,5 @@
+## F유형
+![image](https://github.com/minseok06/WDG/assets/121544294/cfb5c8c9-2c77-47be-9e3d-c05ea7b46f15)
 ## 아쿠아리움
 ![image](https://github.com/minseok06/WDG/assets/121544294/cbc5a7a6-1695-45b5-852f-aa73363a4c42)
 ## ON쇼핑몰
