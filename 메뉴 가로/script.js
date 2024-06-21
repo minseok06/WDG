@@ -1,17 +1,19 @@
+// 메뉴 나타나게 하기
 $('nav>ul>li').mouseover(function(){
-    $('.main').stop().slideDown();
+    $('.m').stop().slideDown();
     $('.sub').stop().slideDown();
 });
 $('nav>ul>li').mouseout(function(){
-    $('.main').stop().slideUp();
+    $('.m').stop().slideUp();
     $('.sub').stop().slideUp();
 });
 
-$('.sub').mouseover(function(){
-    $('.main').stop().slideDown();
+// 메뉴 배경색 유지
+$('.m').mouseover(function(){
+    $('.m').stop().slideDown();
     $('.sub').stop().slideDown();
 });
-$('.sub').mouseout(function(){
-    $('.main').stop().slideUp();
+$('.m').mouseout(function(){
+    $('.m').stop().slideUp();
     $('.sub').stop().slideUp();
 });

@@ -1,24 +1,29 @@
 @charset "utf-8";
-*{
+
+* {
     margin: 0 auto;
     padding: 0;
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     display: block;
     color: inherit;
 }
-body{
+
+body {
     width: 100%;
     height: 100vh;
 }
-header{
+
+header {
     float: left;
     width: 200px;
     height: calc(100% - (100px));
 }
-.logo{
+
+.logo {
     width: 200px;
     line-height: 100px;
     background: rgb(0, 183, 255);
@@ -26,12 +31,14 @@ header{
     color: white;
     font-weight: bold;
 }
-.menu{
+
+.menu {
     width: 200px;
     height: 100%;
     background: rgba(0, 183, 255, 0.6);
 }
-nav{
+
+nav {
     padding: 10px;
     width: 180px;
     font-weight: bold;
@@ -40,48 +47,69 @@ nav{
     position: relative;
     z-index: 1;
 }
-nav>ul>li{
+
+nav>ul>li {
     background: white;
     position: relative;
 }
-nav>ul>li:hover{
+
+nav>ul>li:hover {
     background: rgb(0, 183, 255);
     color: white;
 }
-.sub{
+
+.sub {
+    width: 720px;
     position: absolute;
     left: 180px;
     top: 0px;
     display: flex;
-    background: rgba(0, 0, 0, 0.281);
     color: white;
     z-index: 1;
+    display: none;
 }
-.sub>li{
+
+.sub>li {
+    float: left;
     width: 180px;
 }
-.sub>li:hover{
+
+.sub>li:hover {
     background: white;
     color: black;
 }
-.all{
+
+.m {
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    width: calc(100% - (10px));
+    height: 160px;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.all {
     float: right;
     width: calc(100% - (200px));
     height: 100%;
 }
-.imgslide{
+
+.imgslide {
     float: right;
     width: 100%;
     height: 50%;
     background: rgba(0, 183, 255, 0.4);
 }
-.con{
+
+.con {
     float: left;
     width: 100%;
     height: 30%;
     background: rgba(0, 183, 255, 0.2);
 }
-footer{
+
+footer {
     float: left;
     width: 100%;
     height: 20%;
