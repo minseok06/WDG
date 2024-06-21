@@ -12,8 +12,9 @@ a {
     color: inherit;
 }
 
-body {
+html, body {
     width: 100%;
+    height: 100%;
 }
 
 header {
@@ -95,31 +96,30 @@ header {
     position: relative;
 }
 
-.slidelist img{
+.slidelist img {
     width: 100%;
     height: 350px;
     object-fit: cover;
 }
 
-.slidelist{
+.slidelist {
     height: 1050px;
 }
 
-.slidelist li{
+.slidelist li {
     width: 100%;
     height: 350px;
 }
 
 .slidelist span {
     position: absolute;
-    background: rgba(0, 153, 255, 0.8);
-    color: white;
-    width: 20%;
-    text-align: center;
+    width: 400px;
     line-height: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 40%;
     font-weight: bold;
-    top: 150px;
-    left: 40%;
 }
 
 .all {
@@ -135,12 +135,13 @@ header {
     background: rgba(255, 255, 255, 0.5);
 }
 
-.imgbanner img{
+.imgbanner img {
     width: 80px;
     height: 80px;
     object-fit: cover;
 }
-.imgbanner li{
+
+.imgbanner li {
     text-align: center;
     line-height: 80px;
     font-size: 30px;
@@ -150,7 +151,8 @@ header {
     margin-top: 10px;
     margin-left: 130px;
 }
-.imgbanner li:hover{
+
+.imgbanner li:hover {
     opacity: 0.5;
 }
 
@@ -160,18 +162,20 @@ header {
     background: rgb(0, 153, 255);
 }
 
-.imgtext img{
+.imgtext img {
     width: 400px;
     height: 130px;
     object-fit: cover;
 }
-.imgtext a{
+
+.imgtext a {
     float: left;
     width: 400px;
     height: 130px;
     margin: 10px;
 }
-.text_body{
+
+.text_body {
     float: left;
     width: 750px;
     height: 130px;
@@ -183,7 +187,8 @@ header {
     width: 1200px;
     height: 250px;
 }
-.tabmenu{
+
+.tabmenu {
     float: left;
     width: 1200px;
     height: 180px;
@@ -191,68 +196,82 @@ header {
     margin-bottom: 10px;
     position: absolute;
 }
-.tabmenu>li{
+
+.tabmenu>li {
     float: left;
     width: 200px;
     line-height: 30px;
 }
-.tabmenu>li>a{
+
+.tabmenu>li>a {
     text-align: center;
     color: black;
     background: gainsboro;
 }
-.tabmenu>li.active>a{
+
+.tabmenu>li.active>a {
     background: rgb(0, 153, 255);
     color: white;
     font-weight: bold;
 }
-.tabmenu>li>a:hover{
+
+.tabmenu>li>a:hover {
     font-weight: bold;
 }
-.tabmenu>li div{
+
+.tabmenu>li div {
     position: absolute;
     left: 0;
     height: 0;
     overflow: hidden;
 }
-.tabmenu>li.active div{
+
+.tabmenu>li.active div {
     width: 1180px;
     height: 180px;
     border: 1px solid #ddd;
 }
-.notice{
+
+.notice {
     width: 380px;
     line-height: 40px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
-.notice li{
+
+.notice li {
     padding-left: 10px;
 }
-.notice li:nth-child(2n){
+
+.notice li:nth-child(2n) {
     background: rgb(255, 0, 128);
     color: white;
 }
-.notice span{
+
+.notice span {
     float: right;
     padding-right: 10px;
 }
-.notice li:hover{
+
+.notice li:hover {
     font-weight: bold;
 }
-.gallery img{
+
+.gallery img {
     width: 350px;
     height: 140px;
     padding: 10px;
     object-fit: cover;
 }
-.gallery li{
+
+.gallery li {
     float: left;
     margin-top: 10px;
     margin-left: 17px;
 }
-.gallery li:hover{
+
+.gallery li:hover {
     opacity: 0.5;
 }
 
@@ -262,7 +281,7 @@ footer {
     background: gainsboro;
 }
 
-.f-logo{
+.f-logo {
     float: left;
     width: 200px;
     height: 100px;
@@ -272,31 +291,38 @@ footer {
     color: white;
     font-size: 30px;
 }
-.f-menu{
+
+.f-menu {
     float: right;
     width: 1000px;
     height: 100px;
 }
-.f1{
+
+.f1 {
     width: 100%;
     height: 50px;
 }
-.f1 ul{
+
+.f1 ul {
     margin-left: 30px;
 }
-.f1 li{
+
+.f1 li {
     float: left;
     line-height: 50px;
     margin-left: 10px;
     margin-right: 10px;
 }
-.f1 li>a{
+
+.f1 li>a {
     color: blue;
 }
-.f1 li>a:hover{
+
+.f1 li>a:hover {
     color: hotpink;
 }
-.f2{
+
+.f2 {
     width: 100%;
     height: 50px;
     line-height: 50px;
@@ -304,7 +330,7 @@ footer {
     color: #333;
 }
 
-#modal{
+#modal {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -314,10 +340,12 @@ footer {
     z-index: 1;
     display: none;
 }
-#modal.active{
+
+#modal.active {
     display: block;
 }
-.modal_up{
+
+.modal_up {
     width: 400px;
     height: 400px;
     position: fixed;
@@ -326,17 +354,20 @@ footer {
     background-color: #fff;
     position: relative;
 }
-.uptitle{
+
+.uptitle {
     text-align: center;
     padding-top: 20px;
 }
-.upbody{
+
+.upbody {
     padding: 20px;
     text-align: center;
     font-size: 16px;
     line-height: 30px;
 }
-.btn{
+
+.btn {
     width: 80px;
     height: 20px;
     cursor: pointer;
