@@ -1,5 +1,11 @@
 ## 아쿠아리움
 ![image](https://github.com/minseok06/WDG/assets/121544294/cbc5a7a6-1695-45b5-852f-aa73363a4c42)
+## 아이스크림
+![image](https://github.com/user-attachments/assets/cc294667-222e-4658-81df-11ab78fe900c)
+## 딸기
+![image](https://github.com/user-attachments/assets/53c984ba-2c20-4b85-8469-af9ed5844570)
+## 오사카
+![image](https://github.com/user-attachments/assets/5d76574b-295a-4829-9fc6-1b7cb48a9985)
 ## 코리아은행 완성본
 ![image](https://github.com/minseok06/WDG/assets/121544294/20a54991-e8a7-4056-9aa6-e3de7b39509b)
 ## ON쇼핑몰
