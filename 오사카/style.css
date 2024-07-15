@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    width: 1000px;
+    height: 650px;
+}
+
+header {
+    float: left;
+    width: 200px;
+}
+
+.logo {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.menu {
+    float: left;
+    width: 200px;
+    height: 550px;
+    background-color: greenyellow;
+}
+.navi{
+    width: 150px;
+    top: 20px;
+    position: relative;
+    text-align: center;
+}
+.navi > li > a{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+}
+.navi > li > a:hover{
+    background-color: hotpink;
+}
+.submenu{
+    width: 150px;
+    height: 200px;
+    left: 150px;
+    top: -20px;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.5);
+    display: none;
+    z-index: 1;
+}
+.submenu > li > a{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+}
+.submenu > li > a:hover{
+    background-color: yellow;
+    color: black;
+}
+.banner{
+    float: left;
+    width: 800px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.banner > .slidelist > ul > li > a > img{
+    width: 800px;
+    height: 350px;
+    object-fit: cover;
+}
+.slidelist{
+    width: 2400px;
+}
+.slidelist ul li{
+    width: 800px;
+    float: left;
+}
+.slidelist span{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 400px;
+}
+.contents{
+    float: left;
+    width: 800px;
+    height: 200px;
+}
+.notice{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.tab{
+    float: left;
+    width: 300px;
+}
+.notice h4{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+.notice ul{
+    float: left;
+    width: 290px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.notice a{
+    color: black;
+}
+.notice li:nth-child(2n){
+    background-color: yellow;
+}
+.notice li span{
+    float: right;
+}
+.notice li:hover{
+    font-weight: bold;
+}
+.gallery{
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+.gallery h4{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+}
+.gallery ul li{
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+.gallery img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.gallery li:hover{
+    opacity: 0.5;
+}
+.shortcut{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.shortcut:hover{
+    opacity: 0.5;
+}
+.shortcut img{
+    float: right;
+    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.sctext{
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 85px;
+    margin-left: 50px;
+    color: black;
+}
+footer{
+    float: left;
+    width: 800px;
+    height: 100px;
+    background-color: gainsboro;
+}
+.modal.active{
+    display: none;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    display: none;
+}
+.modal.active{
+    display: block;
+}
+.modal_up{
+    width: 400px;
+    height: 400px;
+    top: 150px;
+    background-color: white;
+    position: relative;
+}
+.modal_title h4{
+    top: 30px;
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.upbody{
+    position: absolute;
+    width: 300px;
+    left: 50px;
+    top: 80px;
+    line-height: 30px;
+}
+.btn a{
+    position: absolute;
+    bottom: 40px;
+    width: 40px;
+    left: 180px;
+    text-align: center;
+    background-color: yellowgreen;
+    color: black;
+}
